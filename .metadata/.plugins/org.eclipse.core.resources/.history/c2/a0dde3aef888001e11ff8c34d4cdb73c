@@ -1,0 +1,21 @@
+
+public class test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			String newArgs = "String";
+			String n = newArgs.toLowerCase();
+			char text = 0;
+			int num =0;
+			System.out.println(newArgs.length());
+			System.out.println(n);
+			
+			for(int i = 0;i<newArgs.length();i++) {
+				text = newArgs.charAt(i);
+				num = newArgs.charAt(i);
+				System.out.println("text :"+text);
+				System.out.println("num :"+num);
+			}
+	}
+
+}

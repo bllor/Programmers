@@ -1,0 +1,14 @@
+
+public class test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			String newArgs = "String";
+			String n = newArgs.toLowerCase();
+			System.out.println(newArgs.length());
+			for(int i = 0;i<=newArgs.length();i++) {
+				n = newArgs.toLowerCase();
+			}
+	}
+
+}
